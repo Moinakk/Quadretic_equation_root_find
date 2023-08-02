@@ -8,12 +8,12 @@ class Main{
         double determinant=Math.pow(b,2)-(4*a*c);
         double sqrt=Math.sqrt(determinant);
         if(determinant>0){
-            firstroot=(+b-sqrt)/(2*a);
+            firstroot=(-b+sqrt)/(2*a);
             secondroot=(-b-sqrt)/(2*a);
             System.out.println("Roots are "+firstroot+" "+secondroot);
         }
         else if(determinant==0){
-            firstroot=(+b-sqrt)/(2*a);
+            firstroot=(-b+sqrt)/(2*a);
             System.out.println("root is "+firstroot);
         }
     }
